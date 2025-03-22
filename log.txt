@@ -1,2 +1,3 @@
 Virtual Environment setup and installing requirements
 Setup env, database, ollama, websocket
+Phase Zero: Initial backend setup complete
