@@ -12,7 +12,5 @@ __pycache__/**
 *.faiss
 *.DS_Store
 *.env
-Documentation.docx
-backend/.env.example
-installation_troubleshooting.docx
-meeting_assistant_architecture.png
+backend/debug_audio.webm
+log.txt
