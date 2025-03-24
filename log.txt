@@ -3,3 +3,4 @@ Setup env, database, ollama, websocket
 Phase Zero: Initial backend setup complete
 Phase 1: Audio Capture
 Built a Chrome Extension
+FastAPI WebSocket Endpoint
