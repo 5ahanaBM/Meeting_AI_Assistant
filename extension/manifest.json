@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Meeting Assistant Capture",
+  "version": "0.1.0",
+  "description": "Captures Google Meet tab audio and streams to a local FastAPI backend.",
+  "action": {
+    "default_title": "Meeting Capture",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabCapture",
+    "offscreen",
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*",
+    "http://127.0.0.1/*",
+    "ws://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "minimum_chrome_version": "109"
+}
