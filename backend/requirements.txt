@@ -12,6 +12,8 @@ numpy==1.26.4
 # Database and ORM
 SQLAlchemy==2.0.32
 psycopg2-binary==2.9.9
+asyncpg==0.30.0
+alembic==1.16.4
 
 # Vector search (start with CPU)
 faiss-cpu==1.8.0.post1
